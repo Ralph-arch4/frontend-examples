@@ -1,0 +1,174 @@
+body{
+    background-color: rgb(254, 213, 220);
+}
+.recipe-card{
+    background-color: #fff5fa;
+    width:90%;
+    max-width:400px;
+    margin:0 auto;
+    height:auto;
+    text-align:center;
+}
+
+.main-image{
+    width:100%;    
+    height:auto;
+}
+
+.recipe-card ul{
+    text-align: left;
+}
+
+.calories,.carbs,.proteins,.fats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:"Outfit",sans-serif;
+    margin-bottom:-15px;
+    margin-top:-15px;
+    
+}
+.food-section,.food-no{
+    flex:1;
+    
+}
+
+
+hr{
+    width:70%;
+}
+
+.recipe-title{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:#302d2c;
+  text-align:left;
+  margin-left:5%;
+  margin-top:20px;
+}
+
+.Simple,.Recipe{
+    margin:0;
+    padding:0;
+    
+}
+
+.Recipe{
+    margin-top:-10px;
+}
+
+#description,
+h4,
+#cooking-sets,
+p,
+ul,
+ol
+{
+    font-family:"Outfit",sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#description{
+    color:#302d2c;
+    
+    text-align: left;
+    margin-left:5%;
+    opacity:70%;
+    font-size:small;
+    width:90%;
+}
+
+h4{
+    margin-top:30px;
+    opacity:100%;
+    font-weight:700;
+}
+
+h4,#cooking-sets{
+    text-align:left;
+    margin-left:10%;
+    color:#7b284f;
+    
+}
+
+#cooking-sets{
+    width:10rem !important;
+    font-size:small;
+    opacity:90%;
+    color:#302d2c;
+    
+}
+
+h3{
+    color:#854632;
+    font-weight: 700;
+    font-size:x-large;
+    text-align:left;
+    margin-left: 10%;
+}
+
+
+#ingredients{
+    font-size:small;
+    opacity:80%;
+}
+
+
+#ingredients li{
+    margin-bottom:10px;
+}
+
+
+hr{
+    opacity:40%;
+}
+
+#instructions{
+    width:75%;
+    font-size:small;
+    text-align:left;
+    
+    
+}
+#instructions li{
+    margin-bottom:10px;
+    opacity:70%;
+    
+}
+
+
+.nutri-intro{
+    opacity:80%;
+}
+
+.nutri-intro p{
+    width:90%;
+    font-size:small;
+    text-align:left;
+    margin-left:20px;
+}
+
+
+@media (min-width: 375px) {
+    .recipe-card {
+       width:70%;/* Cambia il colore di sfondo per vedere se le media queries sono applicate */
+    }
+}
+
+@media (min-width: 1440px) {
+    .recipe-card {
+        width:100%;
+        border-radius:15px;
+        
+    }
+    .main-image{
+        width:85%;
+        margin-top:15px;
+        border-radius:15px;
+    }
+}
+
+
